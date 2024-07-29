@@ -1,0 +1,30 @@
+{
+  "name": "gvbnha--run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2": "^26.2.6",
+    "@syncfusion/ej2-base": "26.2.5",
+    "@syncfusion/ej2-buttons": "26.2.5",
+    "@syncfusion/ej2-calendars": "26.2.5",
+    "@syncfusion/ej2-dropdowns": "26.2.5",
+    "@syncfusion/ej2-icons": "26.2.5",
+    "@syncfusion/ej2-inputs": "26.2.5",
+    "@syncfusion/ej2-querybuilder": "26.2.5",
+    "@syncfusion/ej2-splitbuttons": "26.2.5",
+    "@types/codemirror": "0.0.56",
+    "@types/crossroads": "0.0.28",
+    "@types/es6-promise": "0.0.28",
+    "@types/hasher": "0.0.27",
+    "@types/marked": "0.3.0",
+    "@types/moment-timezone": "0.5.30",
+    "@types/signals": "0.0.16",
+    "codemirror": "5.65.17",
+    "crossroads": "0.12.2",
+    "fuse.js": "3.6.1",
+    "hasher": "1.2.0",
+    "marked": "0.3.19",
+    "moment-timezone": "0.5.45",
+    "undefined": "0.1.0"
+  }
+}

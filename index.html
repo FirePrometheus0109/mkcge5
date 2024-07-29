@@ -1,0 +1,42 @@
+<html><head><link href="https://cdn.syncfusion.com/ej2/26.2.4/material.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+            body{
+                touch-action:none;
+            }
+            .control-section{
+                margin-top:100px;
+            }
+        </style></head><body><div class="stackblitz-container material3">
+<div class="control-section">
+    <div class="top-right-button">
+        <button id="json-btn" class="e-control e-btn">Import JSON</button>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 control-section">
+            <div id="dialog">
+                <textarea class="json-content-area" id="dlgContent"></textarea>
+                <span id="dlgSpan" style="visibility: hidden;">Invalid Query</span>
+            </div>
+            <div id="querybuilder" class="row"></div>
+            <div class="e-query-json-preview" title="JSON Preview Container">
+                <div style="border: none; width: 100%;">
+                    <label style="padding: 10px;">JSON</label>
+                    <div class="copy-tooltip" style="display: none;" id="copy-tooltip">
+                        <div id="tooltipclick">
+                            <div class="e-icons copycode"></div>
+                        </div>
+                    </div>
+                </div>
+                <textarea id="json-texarea" class="e-json-content" title="JSON Content"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div></body></html>
